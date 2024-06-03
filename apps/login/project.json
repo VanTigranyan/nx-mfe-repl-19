@@ -19,7 +19,8 @@
         "assets": [
           {
             "glob": "**/*",
-            "input": "apps/login/public"
+            "input": "apps/login/public",
+            "output": "/"
           }
         ],
         "styles": ["apps/login/src/styles.scss"],

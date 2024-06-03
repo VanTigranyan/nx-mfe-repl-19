@@ -19,7 +19,8 @@
         "assets": [
           {
             "glob": "**/*",
-            "input": "apps/connections/public"
+            "input": "apps/connections/public",
+            "output": "/"
           }
         ],
         "styles": ["apps/connections/src/styles.scss"],

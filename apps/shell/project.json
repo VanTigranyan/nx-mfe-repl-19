@@ -17,9 +17,11 @@
         "tsConfig": "apps/shell/tsconfig.app.json",
         "inlineStyleLanguage": "scss",
         "assets": [
+          "apps/shell/src/assets",
           {
             "glob": "**/*",
-            "input": "apps/shell/public"
+            "input": "apps/shell/public",
+            "output": "/"
           }
         ],
         "styles": ["apps/shell/src/styles.scss"],
