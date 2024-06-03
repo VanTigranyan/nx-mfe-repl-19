@@ -14,7 +14,13 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "connections/Routes": [
+        "apps/connections/src/app/remote-entry/entry.routes.ts"
+      ],
+      "login/Routes": ["apps/login/src/app/remote-entry/entry.routes.ts"],
+      "users/Routes": ["apps/users/src/app/remote-entry/entry.routes.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
